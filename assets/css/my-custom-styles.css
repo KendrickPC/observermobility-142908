@@ -1,0 +1,11 @@
+/* your custom styles here */
+
+.navbar-brand > img {
+	width: 45px;
+}
+
+
+.navbar-brand.navbar-logo-bigger > img {
+	top: 0px;
+	width: 48px;
+}
