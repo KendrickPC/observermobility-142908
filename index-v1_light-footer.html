@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-	<title>Home v5 | Repute - Responsive Multipurpose Bootstrap Theme</title>
+	<title>Home | Repute - Responsive Multipurpose Bootstrap Theme</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Observer Mobility">
-	<meta name="author" content="EveryDayKenneth">
+	<meta name="description" content="Responsive Multipurpose Bootstrap Theme">
+	<meta name="author" content="The Develovers">
 	<!-- CSS -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -21,26 +21,63 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400italic,700,400,300' rel='stylesheet' type='text/css'>
 	<!-- FAVICONS -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/observer144x144.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/observer114x114.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/observer72x72.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/ico/observer57x57.png">
-	<link rel="shortcut icon" href="assets/ico/observerfavicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/repute144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/repute114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/repute72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/repute57x57.png">
+	<link rel="shortcut icon" href="assets/ico/favicon.png">
 </head>
 
-<body class="fullscreen-slider">
+<body>
 	<!-- WRAPPER -->
 	<div class="wrapper">
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-default navbar-transparent " role="navigation">
+		<nav class="navbar navbar-default " role="navigation">
 			<div class="container">
+				<!-- TOPBAR -->
+				<div class="topbar">
+					<ul class="list-inline top-nav">
+						<li>
+							<div class="btn-group">
+								<button type="button" class="btn btn-link dropdown-toggle btn-xs" data-toggle="dropdown"><img src="assets/img/flags/United-Kingdom.png" alt="United Kingdom"> United Kingdom <span class="caret"></span></button>
+								<ul class="dropdown-menu dropdown-menu-right country-selector" role="menu">
+									<li>
+										<a href="#"><img src="assets/img/flags/United-Kingdom.png" alt="United Kingdom"> United Kingdom</a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/flags/Japan.png" alt="Japan"> Japan</a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/flags/China.png" alt="China"> China</a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/flags/Germany.png" alt="Germany"> Germany</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+					<div class="searchbox">
+						<form method="post">
+							<div class="input-group input-group-sm">
+								<input type="text" class="form-control" placeholder="search ...">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+								</span>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- END TOPBAR -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
 						<span class="sr-only">Toggle Navigation</span>
 						<i class="fa fa-bars"></i>
 					</button>
-					<a href="index.html" class="navbar-brand navbar-logo">
-						<img src="assets/img/logo/repute-logo-light.png" alt="Repute - Responsive Multipurpose Bootstrap Theme">
+					<a href="index.html" class="navbar-brand navbar-logo navbar-logo-bigger">
+						<img src="assets/img/logo/repute-logo-nav.png" alt="Repute - Responsive Multipurpose Bootstrap Theme">
 					</a>
 				</div>
 				<!-- MAIN NAVIGATION -->
@@ -51,12 +88,12 @@
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="index.html">Home v1</a></li>
 								<li><a href="index-v1_dark-header.html">Home v1 Dark Header</a></li>
-								<li><a href="index-v1_light-footer.html">Home v1 Light Footer</a></li>
+								<li class="active"><a href="#">Home v1 Light Footer</a></li>
 								<li><a href="index-v2.html">Home v2</a></li>
 								<li><a href="index-v2_dark-header.html">Home v2 Dark Header</a></li>
 								<li><a href="index-v3.html">Home v3</a></li>
 								<li><a href="index-v4_fullscreen.html">Home v4 Fullscreen</a></li>
-								<li class="active"><a href="#">Home v5 Fullscreen Slider</a></li>
+								<li><a href="index-v5_fullscreen_slider.html">Home v5 Fullscreen Slider</a></li>
 								<li class="dropdown ">
 									<a href="#">Blog Home <span class="label label-danger label-main-nav">NEW</span> <i class="fa fa-angle-right"></i></a>
 									<ul class="dropdown-menu" role="menu">
@@ -202,42 +239,38 @@
 			</div>
 		</nav>
 		<!-- END NAVBAR -->
-		<!-- HERO SECTION -->
-		<section class="hero-unit-fullscreen-slider">
-			<div class="slides">
-				<div>
-					<div class="overlay"></div>
-					<div class="container slide-content">
-						<h2 class="hero-heading">ULTRA RESPONSIVE</h2>
-						<p class="lead">Leave it to the theme, it knows how to deal with screen sizes</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+		<!-- HERO UNIT -->
+		<section class="hero-unit-slider slider-responsive">
+			<div id="carousel-hero" class="slick-carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="assets/img/sliders/slider3-h500.png" class="img-responsive" alt="Slider Image">
+						<div class="carousel-caption">
+							<h2 class="hero-heading">CLEAN &amp; ELEGANT DESIGN</h2>
+							<p class="lead">Giving valuable reputation and credibility to your business</p>
+							<a href="#" class="btn btn-lg hero-button">LEARN MORE</a>
+						</div>
 					</div>
-					<img src="assets/img/sliders/full-slide.jpg" alt="Slide Image">
-				</div>
-				<div>
-					<div class="container slide-content text-right">
-						<h2 class="hero-heading">CLEAN &amp; ELEGANT DESIGN</h2>
-						<p class="lead">Giving valuable reputation and credibility to your business</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+					<div class="item">
+						<img src="assets/img/sliders/slider2-h500.png" class="img-responsive" alt="Slider Image">
+						<div class="carousel-caption">
+							<h2 class="hero-heading">ULTRA RESPONSIVE</h2>
+							<p class="lead">Leave it to the theme, it knows how to deal with screen sizes</p>
+							<a href="#" class="btn btn-lg hero-button">LEARN MORE</a>
+						</div>
 					</div>
-					<img src="assets/img/sliders/full-slide2.jpg" alt="Slide Image">
-				</div>
-				<div>
-					<div class="container slide-content text-center">
-						<h2 class="hero-heading">EASY TO CUSTOMIZE</h2>
-						<p class="lead">Readable code, well documented and FREE support</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+					<div class="item">
+						<img src="assets/img/sliders/slider3-h500.png" class="img-responsive" alt="Slider Image">
+						<div class="carousel-caption">
+							<h2 class="hero-heading">EASY TO CUSTOMIZE</h2>
+							<p class="lead">Readable code, well documented and FREE support</p>
+							<a href="#" class="btn btn-lg hero-button">LEARN MORE</a>
+						</div>
 					</div>
-					<img src="assets/img/sliders/full-slide3.jpg" alt="Slide Image">
 				</div>
 			</div>
-			<div class="arrow-nav">
-				<a href="#" id="fullslider-arrow_left" class="arrow-left"><i class="fa fa-angle-left"></i> <span class="sr-only">PREVIOUS</span></a>
-				<a href="#" id="fullslider-arrow_right" class="arrow-right"><i class="fa fa-angle-right"></i> <span class="sr-only">NEXT</span></a>
-			</div>
-			<div id="fullslider-pager" class="pager"></div>
 		</section>
-		<!-- END HERO SECTION -->
+		<!-- END HERO UNIT -->
 		<!-- INTRO -->
 		<section>
 			<div class="container">
@@ -256,7 +289,7 @@
 		</section>
 		<!-- END INTRO -->
 		<!-- BOXED CONTENT -->
-		<section id="main-features">
+		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -291,166 +324,231 @@
 			</div>
 		</section>
 		<!-- END BOXED CONTENT -->
-		<!-- CAROUSEL -->
-		<section class="recent-works slick-carousel">
+		<!-- WHY REPUTE -->
+		<section>
 			<div class="container">
-				<h2 class="section-heading">RECENT WORKS</h2>
-				<div class="portfolio-container">
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">Raining</h4>
-							<p class="brief-description">Photography</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work5.png" alt="Item Thumbnail" />
-						</div>
+				<h2 class="section-heading sr-only">WHY REPUTE</h2>
+				<div class="tab-content">
+					<div class="tab-pane fade in active text-center" id="tab-bottom1">
+						<img src="assets/img/hero-unit-obj.png" class="img-responsive center-block margin-bottom-30px" alt="Ultra Responsive">
+						<h3 class="text-accent-color">ULTRA RESPONSIVE</h3>
+						<p class="lead">Phosfluorescently revolutionize viral leadership via turnkey technology. Synergistically monetize intermandated strategic theme areas through multimedia based.</p>
 					</div>
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">Perfect Edge</h4>
-							<p class="brief-description">Product Design</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work6.png" alt="Item Thumbnail" />
-						</div>
+					<div class="tab-pane fade text-center" id="tab-bottom2">
+						<img src="assets/img/hero-unit-obj3.png" class="img-responsive center-block margin-bottom-30px" alt="Easy to Customize">
+						<h3 class="text-accent-color">IT'S EASY TO CUSTOMIZE</h3>
+						<p class="lead">Efficiently incentivize leading-edge alignments with go forward expertise. Conveniently myocardinate leveraged process improvements through progressive models.</p>
 					</div>
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">Sunny Day</h4>
-							<p class="brief-description">Story</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work7.png" alt="Item Thumbnail" />
-						</div>
+					<div class="tab-pane fade text-center" id="tab-bottom3">
+						<img src="assets/img/hero-unit-obj.png" class="img-responsive center-block margin-bottom-30px" alt="Clean and Elegant Design">
+						<h3 class="text-accent-color">CLEAN &amp; ELEGANT DESIGN</h3>
+						<p class="lead">Competently implement bricks-and-clicks collaboration and idea-sharing rather than visionary internal or "organic" sources. Rapidiously matrix premium core competencies for.</p>
 					</div>
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">Rainy Day</h4>
-							<p class="brief-description">Photography</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work2.png" alt="Item Thumbnail" />
-						</div>
+					<div class="tab-pane fade text-center" id="tab-bottom4">
+						<img src="assets/img/free.png" class="img-responsive center-block margin-bottom-30px" alt="Free Updates and Support">
+						<h3 class="text-accent-color">GET UPDATES &amp; SUPPORT FOR FREE</h3>
+						<p class="lead">Dramatically supply adaptive imperatives and stand-alone content. Exceptional solutions after web-enabled potentialities. Synergistically negotiate alternative best practices whereas professional "outside the box" thinking.</p>
 					</div>
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">Water Everywhere</h4>
-							<p class="brief-description">Story</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work4.png" alt="Item Thumbnail" />
-						</div>
-					</div>
+				</div>
+				<div class="custom-tabs-line tabs-line-top">
+					<ul class="nav" role="tablist">
+						<li class="active"><a href="#tab-bottom1" role="tab" data-toggle="tab">Responsive</a></li>
+						<li><a href="#tab-bottom2" role="tab" data-toggle="tab">Easy to Customize</a></li>
+						<li><a href="#tab-bottom3" role="tab" data-toggle="tab">Design</a></li>
+						<li><a href="#tab-bottom4" role="tab" data-toggle="tab">Free Updates &amp; Support</a></li>
+					</ul>
 				</div>
 			</div>
 		</section>
-		<!-- END CAROUSEL -->
-		<!-- TEAM -->
-		<section class="team">
+		<!-- END WHY REPUTE -->
+		<!-- RECENT WORKS -->
+		<section class="recent-works">
 			<div class="container">
-				<h2 class="section-heading margin-bottom-30px">MEET THE TEAM</h2>
-				<div class="section-content">
-					<div class="col-md-5">
-						<div class="team-member media">
-							<img src="assets/img/team/person1.png" class="media-object img-circle pull-left" alt="" />
-							<div class="media-body">
-								<h3 class="media-heading team-name">Michael Summer</h3>
-								<strong>Executive Director</strong>
-								<hr class="pull-left">
-								<div class="clearfix"></div>
-								<p>Dynamically evolve client-based portals through world-class models. Phosfluorescently simplify cross-platform convergence and multimedia based portals. Rapidiously.</p>
-								<ul class="list-inline social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								</ul>
+				<h2 class="section-heading pull-left">RECENT WORKS</h2>
+				<a href="#" class="btn btn-primary pull-right">See all works</a>
+				<div class="clearfix"></div>
+				<div class="portfolio-static">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="portfolio-item">
+								<div class="overlay"></div>
+								<div class="info">
+									<h4 class="title">Raining</h4>
+									<p class="brief-description">Photography</p>
+									<a href="#" class="btn">read more</a>
+								</div>
+								<div class="media-wrapper">
+									<img src="assets/img/portfolio/800x500/work5.png" alt="Item Thumbnail" />
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-5 col-md-offset-2">
-						<div class="team-member media">
-							<img src="assets/img/team/person2.png" class="media-object img-circle pull-left" alt="" />
-							<div class="media-body">
-								<h3 class="media-heading team-name">Jane Doe</h3>
-								<strong>Art Director</strong>
-								<hr class="pull-left">
-								<div class="clearfix"></div>
-								<p>Dynamically evolve client-based portals through world-class models. Phosfluorescently simplify cross-platform convergence and multimedia based portals. Rapidiously.</p>
-								<ul class="list-inline social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								</ul>
+						<div class="col-md-4">
+							<div class="portfolio-item">
+								<div class="overlay"></div>
+								<div class="info">
+									<h4 class="title">Perfect Edge</h4>
+									<p class="brief-description">Product Design</p>
+									<a href="#" class="btn">read more</a>
+								</div>
+								<div class="media-wrapper">
+									<img src="assets/img/portfolio/800x500/work6.png" alt="Item Thumbnail" />
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-5">
-						<div class="team-member media">
-							<img src="assets/img/team/person3.png" class="media-object img-circle pull-left" alt="" />
-							<div class="media-body">
-								<h3 class="media-heading team-name">Cindy Marry</h3>
-								<strong>UI Designer</strong>
-								<hr class="pull-left">
-								<div class="clearfix"></div>
-								<p>Dynamically evolve client-based portals through world-class models. Phosfluorescently simplify cross-platform convergence and multimedia based portals. Rapidiously.</p>
-								<ul class="list-inline social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-5 col-md-offset-2">
-						<div class="team-member media">
-							<img src="assets/img/team/person4.png" class="media-object img-circle pull-left" alt="" />
-							<div class="media-body">
-								<h3 class="media-heading team-name">Phillips Abraham</h3>
-								<strong>Front-end Developer</strong>
-								<hr class="pull-left">
-								<div class="clearfix"></div>
-								<p>Dynamically evolve client-based portals through world-class models. Phosfluorescently simplify cross-platform convergence and multimedia based portals. Rapidiously.</p>
-								<ul class="list-inline social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								</ul>
+						<div class="col-md-4">
+							<div class="portfolio-item">
+								<div class="overlay"></div>
+								<div class="info">
+									<h4 class="title">Sunny Day</h4>
+									<p class="brief-description">Photography</p>
+									<a href="#" class="btn">read more</a>
+								</div>
+								<div class="media-wrapper">
+									<img src="assets/img/portfolio/800x500/work7.png" alt="Item Thumbnail" />
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- END TEAM -->
+		<!-- END RECENT WORKS -->
+		<!-- LATEST NEWS -->
+		<section>
+			<div class="container">
+				<h2 class="section-heading">LATEST NEWS</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="news-item news-featured">
+							<a href="#"><img src="assets/img/news/featured-news.png" class="img-responsive" alt="News Thumbnail"></a>
+							<h3 class="news-title"><a href="#">In Demand: Collaboration Skill</a></h3>
+							<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures. Seamlessly predominate interoperable growth strategies.</p>
+							<div class="news-meta">
+								<span class="news-datetime">23-02-2015</span>
+								<span class="news-comment-count pull-right"><a href="#">65 Comments</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news1.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Growth Strategies We Must Know</a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news2.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Alternative E-commerce</a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news3.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Products Research Methodology &amp; Principles </a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news4.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Understanding Globally Scale Quality Network</a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news5.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Professional Leverage</a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="see-all-news">
+									<a href="#">See all news <i class="fa fa-long-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END LATEST NEWS -->
+		<!-- NUMBERS -->
+		<section class="full-width-section no-margin">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-6">
+						<div class="number-info horizontal text-white-color">
+							<i class="fa fa-plug pull-left"></i>
+							<p>5200 <span>SUBSCRIBERS</span></p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="number-info horizontal text-white-color">
+							<i class="fa fa-cubes pull-left"></i>
+							<p>273 <span>PROJECTS</span></p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="number-info horizontal text-white-color">
+							<i class="fa fa-thumbs-up pull-left"></i>
+							<p>640K <span>APPRECIATIONS</span></p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="number-info horizontal text-white-color">
+							<i class="fa fa-users pull-left"></i>
+							<p>132 <span>CLIENTS</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END NUMBERS -->
 		<!-- TESTIMONIAL -->
-		<section class="testimonial-fancy">
+		<section id="testimoial-parallax" class="testimonial-with-bg parallax">
 			<div class="container">
-				<div class="testimonial-body">
-					<h2 class="sr-only">TESTIMOMIAL</h2>
-					<i class="fa fa-quote-left"></i>
-					<p class="testimonial-bubble">
-						Credibly extend parallel relationships after clicks-and-mortar content. Credibly pontificate team building alignments rather than diverse quality vectors. Monotonectally benchmark business communities for distinctive mindshare.
-					</p>
-					<div class="testimonial-author">
-						<img src="assets/img/user2.png" alt="Author" class="pull-left">
-						<span><span class="author-name">Antonius</span> <em>CEO of TheCompany</em></span>
+				<div class="testimonial slick-carousel">
+					<div class="testimonial-container">
+						<div class="testimonial-body">
+							<p>Credibly extend parallel relationships after clicks-and-mortar content. Credibly pontificate team building alignments rather than diverse quality vectors.</p>
+							<div class="testimonial-author">
+								<img src="assets/img/user2.png" alt="Author" class="pull-left">
+								<span><span class="author-name">Antonius</span> <em>CEO of TheCompany</em></span>
+							</div>
+						</div>
+						<div class="testimonial-body">
+							<p>Credibly pontificate team building alignments rather than diverse quality vectors. Monotonectally benchmark business communities for distinctive mindshare.</p>
+							<div class="testimonial-author">
+								<img src="assets/img/user1.png" alt="Author" class="pull-left">
+								<span><span class="author-name">Michael</span> <em>General Manager of DreamCorp</em></span>
+							</div>
+						</div>
+						<div class="testimonial-body">
+							<p>Appropriately morph low-risk high-yield process improvements through progressive partnerships. Uniquely brand enabled. Globally network timely imperatives without plug-and-play schemas.</p>
+							<div class="testimonial-author">
+								<img src="assets/img/user5.png" alt="Author" class="pull-left">
+								<span><span class="author-name">Palmer</span> <em>Freelance Web Developer</em></span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<div class="margin-bottom-30px">&nbsp;</div>
 		<!-- END TESTIMONIAL -->
 		<!-- OUR CLIENTS -->
 		<section class="clients">
@@ -458,19 +556,19 @@
 				<h2 class="section-heading">OUR CLIENTS</h2>
 				<ul class="list-inline list-client-logo">
 					<li>
-						<a href="#"><img src="assets/img/clients/logo1.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo1.png" alt="logo"></a>
 					</li>
 					<li>
-						<a href="#"><img src="assets/img/clients/logo2.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo2.png" alt="logo"></a>
 					</li>
 					<li>
-						<a href="#"><img src="assets/img/clients/logo3.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo3.png" alt="logo"></a>
 					</li>
 					<li>
-						<a href="#"><img src="assets/img/clients/logo4.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo4.png" alt="logo"></a>
 					</li>
 					<li>
-						<a href="#"><img src="assets/img/clients/logo5.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo5.png" alt="logo"></a>
 					</li>
 				</ul>
 			</div>
@@ -489,13 +587,13 @@
 		</section>
 		<!-- END CALL-TO-ACTION -->
 		<!-- FOOTER -->
-		<footer>
+		<footer class="footer-light">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
 						<!-- COLUMN 1 -->
 						<h3 class="sr-only">ABOUT US</h3>
-						<img src="assets/img/logo/repute-logo-light.png" class="logo" alt="Repute">
+						<img src="assets/img/logo/repute-logo-nav.png" class="logo" alt="Repute">
 						<p>Proactively aggregate B2B initiatives before extensive channels. Monotonectally extend interactive methods of empowerment through excellent applications. Rapidiously synergize visionary products with sticky technology.</p>
 						<br>
 						<address class="margin-bottom-30px">
@@ -573,8 +671,8 @@
 	<script src="assets/js/jquery-2.1.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/plugins/slick/slick.min.js"></script>
-	<script src="assets/js/plugins/jquery-cycle/jquery.cycle.all.js"></script>
-	<script src="assets/js/plugins/maximage/jquery.maximage.min.js"></script>
+	<script src="assets/js/plugins/stellar/jquery.stellar.min.js"></script>
+	<script src="assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
 	<script src="assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
 	<script src="assets/js/repute-scripts.js"></script>
 	

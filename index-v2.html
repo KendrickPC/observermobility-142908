@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-	<title>Home v5 | Repute - Responsive Multipurpose Bootstrap Theme</title>
+	<title>Home v2 | Repute - Responsive Multipurpose Bootstrap Theme</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Observer Mobility">
-	<meta name="author" content="EveryDayKenneth">
+	<meta name="description" content="Responsive Multipurpose Bootstrap Theme">
+	<meta name="author" content="The Develovers">
 	<!-- CSS -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -21,18 +21,18 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400italic,700,400,300' rel='stylesheet' type='text/css'>
 	<!-- FAVICONS -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/observer144x144.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/observer114x114.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/observer72x72.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/ico/observer57x57.png">
-	<link rel="shortcut icon" href="assets/ico/observerfavicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/repute144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/repute114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/repute72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/repute57x57.png">
+	<link rel="shortcut icon" href="assets/ico/favicon.png">
 </head>
 
-<body class="fullscreen-slider">
+<body>
 	<!-- WRAPPER -->
 	<div class="wrapper">
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-default navbar-transparent " role="navigation">
+		<nav class="navbar navbar-default " role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
@@ -40,7 +40,7 @@
 						<i class="fa fa-bars"></i>
 					</button>
 					<a href="index.html" class="navbar-brand navbar-logo">
-						<img src="assets/img/logo/repute-logo-light.png" alt="Repute - Responsive Multipurpose Bootstrap Theme">
+						<img src="assets/img/logo/repute-logo-nav.png" alt="Repute - Responsive Multipurpose Bootstrap Theme">
 					</a>
 				</div>
 				<!-- MAIN NAVIGATION -->
@@ -52,11 +52,11 @@
 								<li><a href="index.html">Home v1</a></li>
 								<li><a href="index-v1_dark-header.html">Home v1 Dark Header</a></li>
 								<li><a href="index-v1_light-footer.html">Home v1 Light Footer</a></li>
-								<li><a href="index-v2.html">Home v2</a></li>
+								<li class="active"><a href="#">Home v2</a></li>
 								<li><a href="index-v2_dark-header.html">Home v2 Dark Header</a></li>
 								<li><a href="index-v3.html">Home v3</a></li>
 								<li><a href="index-v4_fullscreen.html">Home v4 Fullscreen</a></li>
-								<li class="active"><a href="#">Home v5 Fullscreen Slider</a></li>
+								<li><a href="index-v5_fullscreen_slider.html">Home v5 Fullscreen Slider</a></li>
 								<li class="dropdown ">
 									<a href="#">Blog Home <span class="label label-danger label-main-nav">NEW</span> <i class="fa fa-angle-right"></i></a>
 									<ul class="dropdown-menu" role="menu">
@@ -202,88 +202,97 @@
 			</div>
 		</nav>
 		<!-- END NAVBAR -->
-		<!-- HERO SECTION -->
-		<section class="hero-unit-fullscreen-slider">
-			<div class="slides">
-				<div>
-					<div class="overlay"></div>
-					<div class="container slide-content">
-						<h2 class="hero-heading">ULTRA RESPONSIVE</h2>
-						<p class="lead">Leave it to the theme, it knows how to deal with screen sizes</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+		<!-- HERO UNIT -->
+		<section class="hero-unit-animated">
+			<div id="carousel-hero-animated" class="carousel">
+				<!-- Slide Wrapper -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="container">
+							<div class="hero-left pull-left">
+								<div class="hero-text">
+									<h2 class="hero-heading animation-delay-5" data-animation="animated fadeIn">CLEAN &amp; ELEGANT DESIGN</h2>
+									<p class="lead animation-delay-7" data-animation="animated fadeIn">Giving valuable reputation and credibility to your business</p>
+								</div>
+								<a href="#" class="btn btn-info btn-lg hero-button animation-delay-12" data-animation="animated fadeIn">LEARN MORE</a>
+							</div>
+							<div class="hero-right pull-right">
+								<img src="assets/img/hero-unit-obj.png" class="animation-delay-9" data-animation="animated fadeInRight" alt="Repute Business Theme">
+							</div>
+						</div>
 					</div>
-					<img src="assets/img/sliders/full-slide.jpg" alt="Slide Image">
-				</div>
-				<div>
-					<div class="container slide-content text-right">
-						<h2 class="hero-heading">CLEAN &amp; ELEGANT DESIGN</h2>
-						<p class="lead">Giving valuable reputation and credibility to your business</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+					<div class="item">
+						<div class="container">
+							<div class="hero-left pull-left">
+								<div class="hero-text">
+									<h2 class="hero-heading animation-delay-5" data-animation="animated fadeIn">ULTRA RESPONSIVE</h2>
+									<p class="lead animation-delay-7" data-animation="animated fadeIn">Leave it to the theme, it knows how to deal with screen sizes</p>
+								</div>
+								<a href="#" class="btn btn-info btn-lg hero-button animation-delay-12" data-animation="animated fadeIn">LEARN MORE</a>
+							</div>
+							<div class="hero-right pull-right">
+								<img src="assets/img/hero-unit-obj2.png" class="animation-delay-9" data-animation="animated fadeInRight" alt="Repute Business Theme">
+							</div>
+						</div>
 					</div>
-					<img src="assets/img/sliders/full-slide2.jpg" alt="Slide Image">
-				</div>
-				<div>
-					<div class="container slide-content text-center">
-						<h2 class="hero-heading">EASY TO CUSTOMIZE</h2>
-						<p class="lead">Readable code, well documented and FREE support</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+					<div class="item">
+						<div class="container">
+							<div class="hero-left pull-left">
+								<div class="hero-text">
+									<h2 class="hero-heading animation-delay-5" data-animation="animated fadeIn">EASY TO CUSTOMIZE</h2>
+									<p class="lead animation-delay-7" data-animation="animated fadeIn">Readable code, well documented and FREE support</p>
+								</div>
+								<a href="#" class="btn btn-info btn-lg hero-button animation-delay-12" data-animation="animated fadeIn">LEARN MORE</a>
+							</div>
+							<div class="hero-right pull-right">
+								<img src="assets/img/hero-unit-obj3.png" class="animation-delay-9" data-animation="animated fadeInRight" alt="Repute Business Theme">
+							</div>
+						</div>
 					</div>
-					<img src="assets/img/sliders/full-slide3.jpg" alt="Slide Image">
 				</div>
+				<!-- End Slide Wrapper -->
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-hero-animated" role="button" data-slide="prev">
+					<span class="fa fa-angle-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-hero-animated" role="button" data-slide="next">
+					<span class="fa fa-angle-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+				<!-- End Controls -->
+				<!-- Pagination -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-hero-animated" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-hero-animated" data-slide-to="1"></li>
+					<li data-target="#carousel-hero-animated" data-slide-to="2"></li>
+				</ol>
+				<!-- End Pagination -->
 			</div>
-			<div class="arrow-nav">
-				<a href="#" id="fullslider-arrow_left" class="arrow-left"><i class="fa fa-angle-left"></i> <span class="sr-only">PREVIOUS</span></a>
-				<a href="#" id="fullslider-arrow_right" class="arrow-right"><i class="fa fa-angle-right"></i> <span class="sr-only">NEXT</span></a>
-			</div>
-			<div id="fullslider-pager" class="pager"></div>
 		</section>
-		<!-- END HERO SECTION -->
-		<!-- INTRO -->
+		<!-- END HERO UNIT -->
+		<!-- BOXED CONTENT -->
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
-						<h2 class="section-heading">KNOW BETTER</h2>
-						<p class="lead">Synergistically procrastinate one-to-one results for accurate platforms. Assertively whiteboard corporate users whereas dynamic initiatives.</p>
-						<p>Energistically architect leading-edge users and inexpensive internal or "organic" sources. Distinctively evolve e-business resources after progressive intellectual capital. Objectively architect maintainable technologies via strategic convergence. Continually optimize stand-alone expertise with e-business e-services. Continually conceptualize client-centered opportunities and.</p>
-						<p>Dynamically customize backward-compatible processes via front-end models. Distinctively evisculate an expanded array of scenarios after virtual information. Professionally predominate technically sound resources through impactful mindshare. Efficiently drive viral interfaces without inexpensive value. Credibly.</p>
-					</div>
-					<div class="col-md-6">
-						<img src="assets/img/intro-img.png" class="img-responsive" alt="Image Intro">
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END INTRO -->
-		<!-- BOXED CONTENT -->
-		<section id="main-features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="boxed-content left-aligned left-boxed-icon">
+					<div class="col-md-4">
+						<div class="boxed-content">
 							<i class="fa fa-flag"></i>
 							<h2 class="boxed-content-title">GOAL ORIENTED</h2>
 							<p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="boxed-content left-aligned left-boxed-icon">
+					<div class="col-md-4">
+						<div class="boxed-content">
 							<i class="fa fa-globe"></i>
 							<h2 class="boxed-content-title">GLOBAL SERVICE</h2>
 							<p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="boxed-content left-aligned left-boxed-icon">
+					<div class="col-md-4">
+						<div class="boxed-content">
 							<i class="fa fa-cog"></i>
 							<h2 class="boxed-content-title">DYNAMIC CHANGE</h2>
-							<p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="boxed-content left-aligned left-boxed-icon">
-							<i class="fa fa-users"></i>
-							<h2 class="boxed-content-title">PROFESSIONAL SUPPORT</h2>
 							<p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
 						</div>
 					</div>
@@ -355,85 +364,34 @@
 			</div>
 		</section>
 		<!-- END CAROUSEL -->
-		<!-- TEAM -->
-		<section class="team">
+		<!-- BRIEF ABOUT -->
+		<section>
 			<div class="container">
-				<h2 class="section-heading margin-bottom-30px">MEET THE TEAM</h2>
-				<div class="section-content">
-					<div class="col-md-5">
-						<div class="team-member media">
-							<img src="assets/img/team/person1.png" class="media-object img-circle pull-left" alt="" />
-							<div class="media-body">
-								<h3 class="media-heading team-name">Michael Summer</h3>
-								<strong>Executive Director</strong>
-								<hr class="pull-left">
-								<div class="clearfix"></div>
-								<p>Dynamically evolve client-based portals through world-class models. Phosfluorescently simplify cross-platform convergence and multimedia based portals. Rapidiously.</p>
-								<ul class="list-inline social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								</ul>
-							</div>
-						</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h2 class="section-heading">WHO WE ARE</h2>
+						<img src="assets/img/business-people.png" class="inline-img" alt="Who We Are">
+						<p>Compellingly actualize excellent users and distinctive leadership skills. Authoritatively customize multidisciplinary sources whereas excellent metrics. Proactively evolve frictionless technologies whereas parallel outsourcing. Interactively productivate cross functional methodologies with visionary e-business. Appropriately generate diverse "outside the box" thinking whereas cutting-edge deliverables. Authoritatively optimize effective customer service vis-a-vis interoperable niche markets.</p>
+						<p>Rapidiously facilitate distributed action items vis-a-vis an expanded array of applications. Monotonectally procrastinate quality content without interdependent "outside the box" thinking. Holisticly syndicate enterprise infrastructures without magnetic methods of empowerment. Professionally evisculate high-quality collaboration and idea-sharing rather than bricks-and-clicks quality vectors. Globally administrate strategic customer service before inexpensive value. Rapidiously enhance cross-platform e-tailers via clicks-and-mortar models. Intrinsicly envisioneer.</p>
+						<br>
 					</div>
-					<div class="col-md-5 col-md-offset-2">
-						<div class="team-member media">
-							<img src="assets/img/team/person2.png" class="media-object img-circle pull-left" alt="" />
-							<div class="media-body">
-								<h3 class="media-heading team-name">Jane Doe</h3>
-								<strong>Art Director</strong>
-								<hr class="pull-left">
-								<div class="clearfix"></div>
-								<p>Dynamically evolve client-based portals through world-class models. Phosfluorescently simplify cross-platform convergence and multimedia based portals. Rapidiously.</p>
-								<ul class="list-inline social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-5">
-						<div class="team-member media">
-							<img src="assets/img/team/person3.png" class="media-object img-circle pull-left" alt="" />
-							<div class="media-body">
-								<h3 class="media-heading team-name">Cindy Marry</h3>
-								<strong>UI Designer</strong>
-								<hr class="pull-left">
-								<div class="clearfix"></div>
-								<p>Dynamically evolve client-based portals through world-class models. Phosfluorescently simplify cross-platform convergence and multimedia based portals. Rapidiously.</p>
-								<ul class="list-inline social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-5 col-md-offset-2">
-						<div class="team-member media">
-							<img src="assets/img/team/person4.png" class="media-object img-circle pull-left" alt="" />
-							<div class="media-body">
-								<h3 class="media-heading team-name">Phillips Abraham</h3>
-								<strong>Front-end Developer</strong>
-								<hr class="pull-left">
-								<div class="clearfix"></div>
-								<p>Dynamically evolve client-based portals through world-class models. Phosfluorescently simplify cross-platform convergence and multimedia based portals. Rapidiously.</p>
-								<ul class="list-inline social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								</ul>
-							</div>
-						</div>
+					<div class="col-md-6">
+						<h2 class="section-heading">WHY CHOOSE US?</h2>
+						<p>Professionally disintermediate dynamic models through enterprise core competencies. Completely target clicks-and-mortar ideas vis-a-vis goal-oriented quality vectors. Monotonectally incentivize plug-and-play services whereas B2C leadership skills. Professionally predominate standardized markets and premier.</p>
+						<ul class="fa-ul list-iconed">
+							<li><i class="fa fa-li fa-check-circle"></i>Objectively unleash impactful functionalities via transparent networks.</li>
+							<li><i class="fa fa-li fa-check-circle"></i>Appropriately promote value-added strategic theme areas for pandemic meta-services.</li>
+							<li><i class="fa fa-li fa-check-circle"></i>Intrinsicly redefine premier e-services via innovative core competencies.</li>
+							<li><i class="fa fa-li fa-check-circle"></i>Interactively facilitate 24/365 models with intermandated.</li>
+							<li><i class="fa fa-li fa-check-circle"></i>Interactively reintermediate synergistic "outside the box" thinking before inexpensive experiences.</li>
+							<li><i class="fa fa-li fa-check-circle"></i>Conveniently morph global benefits rather than process-centric customer service.</li>
+						</ul>
+						<p>Synergistically reintermediate innovative action items without technically sound technologies. Dramatically reconceptualize empowered applications with timely vortals. Phosfluorescently integrate fully researched platforms with market-driven action items. Dynamically restore 2.0 benefits via fully researched deliverables. Proactively extend client-focused core competencies before distinctive "outside the.</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- END TEAM -->
+		<!-- END BRIEF ABOUT -->
 		<!-- TESTIMONIAL -->
 		<section class="testimonial-fancy">
 			<div class="container">
@@ -450,7 +408,6 @@
 				</div>
 			</div>
 		</section>
-		<div class="margin-bottom-30px">&nbsp;</div>
 		<!-- END TESTIMONIAL -->
 		<!-- OUR CLIENTS -->
 		<section class="clients">
@@ -573,8 +530,6 @@
 	<script src="assets/js/jquery-2.1.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/plugins/slick/slick.min.js"></script>
-	<script src="assets/js/plugins/jquery-cycle/jquery.cycle.all.js"></script>
-	<script src="assets/js/plugins/maximage/jquery.maximage.min.js"></script>
 	<script src="assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
 	<script src="assets/js/repute-scripts.js"></script>
 	
