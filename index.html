@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-	<title>Observer Mobility Homepage</title>
+	<title>Home | Repute - Responsive Multipurpose Bootstrap Theme</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Observer Mobility">
-	<meta name="author" content="EveryDayKenneth">
+	<meta name="description" content="Responsive Multipurpose Bootstrap Theme">
+	<meta name="author" content="The Develovers">
 	<!-- CSS -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -21,33 +21,71 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400italic,700,400,300' rel='stylesheet' type='text/css'>
 	<!-- FAVICONS -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/observer144x144.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/observer114x114.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/observer72x72.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/ico/observer57x57.png">
-	<link rel="shortcut icon" href="assets/ico/observerfavicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/repute144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/repute114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/repute72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/repute57x57.png">
+	<link rel="shortcut icon" href="assets/ico/favicon.png">
 </head>
 
-<body class="fullscreen-slider">
+<body>
 	<!-- WRAPPER -->
 	<div class="wrapper">
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-default navbar-transparent" role="navigation">
+		<nav class="navbar navbar-default " role="navigation">
 			<div class="container">
+				<!-- TOPBAR -->
+				<div class="topbar">
+					<ul class="list-inline top-nav">
+						<li>
+							<div class="btn-group">
+								<button type="button" class="btn btn-link dropdown-toggle btn-xs" data-toggle="dropdown"><img src="assets/img/flags/United-Kingdom.png" alt="United Kingdom"> United Kingdom <span class="caret"></span></button>
+								<ul class="dropdown-menu dropdown-menu-right country-selector" role="menu">
+									<li>
+										<a href="#"><img src="assets/img/flags/United-Kingdom.png" alt="United Kingdom"> United Kingdom</a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/flags/Japan.png" alt="Japan"> Japan</a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/flags/China.png" alt="China"> China</a>
+									</li>
+									<li>
+										<a href="#"><img src="assets/img/flags/Germany.png" alt="Germany"> Germany</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+					<div class="searchbox">
+						<form method="post">
+							<div class="input-group input-group-sm">
+								<input type="text" class="form-control" placeholder="search ...">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+								</span>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- END TOPBAR -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
 						<span class="sr-only">Toggle Navigation</span>
 						<i class="fa fa-bars"></i>
 					</button>
-					<a href="index.html" class="navbar-brand navbar-logo">
-						<img src="assets/img/logo/observer225x150.png" alt="Observer Mobility Theme">
+					<a href="index.html" class="navbar-brand navbar-logo navbar-logo-bigger">
+						<img src="assets/img/logo/repute-logo-nav.png" alt="Repute - Responsive Multipurpose Bootstrap Theme">
 					</a>
 				</div>
 				<!-- MAIN NAVIGATION -->
-				<div id="main-nav" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
+
+				<div id="main-nav" class="navbar-collapse collapse" style="padding: 25px;">
+					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="aboutus.html">ABOUT THE COMPANY</a>
+							<a href="aboutus.html">ABOUT</a>
 						</li>
 						<li>
 							<a href="#services">SERVICES</a>
@@ -69,48 +107,43 @@
 						</li>
 					</ul>
 				</div>
+
 				<!-- END MAIN NAVIGATION -->
 			</div>
 		</nav>
 		<!-- END NAVBAR -->
-		<!-- HERO SECTION -->
-		<section class="hero-unit-fullscreen-slider">
-			<div class="slides">
-				<div>
-					<div class="overlay"></div>
-					<div class="container slide-content">
-						<h2 class="hero-heading">Go anywhere, anytime</h2>
-						<p class="lead">The Observer is the first wheel-chair specially created for driving anywhere you want, anytime you want, without limitations</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+		<!-- HERO UNIT -->
+		<section class="hero-unit-slider slider-responsive">
+			<div id="carousel-hero" class="slick-carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="assets/img/sliders/slider3-h500.png" class="img-responsive" alt="Slider Image">
+						<div class="carousel-caption">
+							<h2 class="hero-heading">CLEAN &amp; ELEGANT DESIGN</h2>
+							<p class="lead">Giving valuable reputation and credibility to your business</p>
+							<a href="#" class="btn btn-lg hero-button">LEARN MORE</a>
+						</div>
 					</div>
-					<img src="assets/img/sliders/grass.jpg" alt="Slide Image">
-				</div>
-				<div>
-					<div class="overlay"></div>
-					<div class="container slide-content text-right">
-						<h2 class="hero-heading">The real adventure begins where the paved road ends</h2>
-						<p class="lead">Meet our unique 4x4  all terrain wheel-chair</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+					<div class="item">
+						<img src="assets/img/sliders/slider2-h500.png" class="img-responsive" alt="Slider Image">
+						<div class="carousel-caption">
+							<h2 class="hero-heading">ULTRA RESPONSIVE</h2>
+							<p class="lead">Leave it to the theme, it knows how to deal with screen sizes</p>
+							<a href="#" class="btn btn-lg hero-button">LEARN MORE</a>
+						</div>
 					</div>
-					<img src="assets/img/sliders/gus.jpg" alt="Slide Image">
-				</div>
-				<div>
-					<div class="overlay"></div>
-					<div class="container slide-content text-center">
-						<h2 class="hero-heading">EASY TO CUSTOMIZE</h2>
-						<p class="lead">Check out some of our custom accessories</p>
-						<a href="#" class="btn btn-rounded-4x btn-primary btn-hero">LEARN MORE</a>
+					<div class="item">
+						<img src="assets/img/sliders/slider3-h500.png" class="img-responsive" alt="Slider Image">
+						<div class="carousel-caption">
+							<h2 class="hero-heading">EASY TO CUSTOMIZE</h2>
+							<p class="lead">Readable code, well documented and FREE support</p>
+							<a href="#" class="btn btn-lg hero-button">LEARN MORE</a>
+						</div>
 					</div>
-					<img src="assets/img/sliders/sand.jpg" alt="Slide Image">
 				</div>
 			</div>
-			<div class="arrow-nav">
-				<a href="#" id="fullslider-arrow_left" class="arrow-left"><i class="fa fa-angle-left"></i> <span class="sr-only">PREVIOUS</span></a>
-				<a href="#" id="fullslider-arrow_right" class="arrow-right"><i class="fa fa-angle-right"></i> <span class="sr-only">NEXT</span></a>
-			</div>
-			<div id="fullslider-pager" class="pager"></div>
 		</section>
-		<!-- END HERO SECTION -->
+		<!-- END HERO UNIT -->
 		<!-- INTRO -->
 		<section>
 			<div class="container">
@@ -129,33 +162,33 @@
 		</section>
 		<!-- END INTRO -->
 		<!-- BOXED CONTENT -->
-		<section id="main-features">
+		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
 						<div class="boxed-content left-aligned left-boxed-icon">
-							<i class="fa fa-wheelchair"></i>
+							<i class="fa fa-flag"></i>
 							<h2 class="boxed-content-title">GOAL ORIENTED</h2>
 							<p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="boxed-content left-aligned left-boxed-icon">
-							<i class="fa fa-wheelchair"></i>
+							<i class="fa fa-globe"></i>
 							<h2 class="boxed-content-title">GLOBAL SERVICE</h2>
 							<p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="boxed-content left-aligned left-boxed-icon">
-							<i class="fa fa-wheelchair"></i>
+							<i class="fa fa-cog"></i>
 							<h2 class="boxed-content-title">DYNAMIC CHANGE</h2>
 							<p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="boxed-content left-aligned left-boxed-icon">
-							<i class="fa fa-wheelchair"></i>
+							<i class="fa fa-users"></i>
 							<h2 class="boxed-content-title">PROFESSIONAL SUPPORT</h2>
 							<p>Holisticly harness just in time technologies via corporate scenarios. Intrinsicly predominate ubiquitous outsourcing through an expanded array of functionalities.</p>
 						</div>
@@ -164,75 +197,231 @@
 			</div>
 		</section>
 		<!-- END BOXED CONTENT -->
-		<!-- CAROUSEL -->
-		<section class="recent-works slick-carousel">
+		<!-- WHY REPUTE -->
+		<section>
 			<div class="container">
-				<h2 class="section-heading">FEATURED PRODUCTS</h2>
-				<div class="portfolio-container">
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">OB-EW-001</h4>
-							<p class="brief-description">The Best One</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work5.png" alt="Item Thumbnail" />
-						</div>
+				<h2 class="section-heading sr-only">WHY REPUTE</h2>
+				<div class="tab-content">
+					<div class="tab-pane fade in active text-center" id="tab-bottom1">
+						<img src="assets/img/hero-unit-obj.png" class="img-responsive center-block margin-bottom-30px" alt="Ultra Responsive">
+						<h3 class="text-accent-color">ULTRA RESPONSIVE</h3>
+						<p class="lead">Phosfluorescently revolutionize viral leadership via turnkey technology. Synergistically monetize intermandated strategic theme areas through multimedia based.</p>
 					</div>
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">OB-EW-002</h4>
-							<p class="brief-description">The Second One</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work6.png" alt="Item Thumbnail" />
-						</div>
+					<div class="tab-pane fade text-center" id="tab-bottom2">
+						<img src="assets/img/hero-unit-obj3.png" class="img-responsive center-block margin-bottom-30px" alt="Easy to Customize">
+						<h3 class="text-accent-color">IT'S EASY TO CUSTOMIZE</h3>
+						<p class="lead">Efficiently incentivize leading-edge alignments with go forward expertise. Conveniently myocardinate leveraged process improvements through progressive models.</p>
 					</div>
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">OB-EW-003</h4>
-							<p class="brief-description">The Third One</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work7.png" alt="Item Thumbnail" />
-						</div>
+					<div class="tab-pane fade text-center" id="tab-bottom3">
+						<img src="assets/img/hero-unit-obj.png" class="img-responsive center-block margin-bottom-30px" alt="Clean and Elegant Design">
+						<h3 class="text-accent-color">CLEAN &amp; ELEGANT DESIGN</h3>
+						<p class="lead">Competently implement bricks-and-clicks collaboration and idea-sharing rather than visionary internal or "organic" sources. Rapidiously matrix premium core competencies for.</p>
 					</div>
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">Rainy Day</h4>
-							<p class="brief-description">Photography</p>
-							<a href="#" class="btn">read more</a>
-						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work2.png" alt="Item Thumbnail" />
-						</div>
+					<div class="tab-pane fade text-center" id="tab-bottom4">
+						<img src="assets/img/free.png" class="img-responsive center-block margin-bottom-30px" alt="Free Updates and Support">
+						<h3 class="text-accent-color">GET UPDATES &amp; SUPPORT FOR FREE</h3>
+						<p class="lead">Dramatically supply adaptive imperatives and stand-alone content. Exceptional solutions after web-enabled potentialities. Synergistically negotiate alternative best practices whereas professional "outside the box" thinking.</p>
 					</div>
-					<div class="portfolio-item">
-						<div class="overlay"></div>
-						<div class="info">
-							<h4 class="title">Water Everywhere</h4>
-							<p class="brief-description">Story</p>
-							<a href="#" class="btn">read more</a>
+				</div>
+				<div class="custom-tabs-line tabs-line-top">
+					<ul class="nav" role="tablist">
+						<li class="active"><a href="#tab-bottom1" role="tab" data-toggle="tab">Responsive</a></li>
+						<li><a href="#tab-bottom2" role="tab" data-toggle="tab">Easy to Customize</a></li>
+						<li><a href="#tab-bottom3" role="tab" data-toggle="tab">Design</a></li>
+						<li><a href="#tab-bottom4" role="tab" data-toggle="tab">Free Updates &amp; Support</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- END WHY REPUTE -->
+		<!-- RECENT WORKS -->
+		<section class="recent-works">
+			<div class="container">
+				<h2 class="section-heading pull-left">RECENT WORKS</h2>
+				<a href="#" class="btn btn-primary pull-right">See all works</a>
+				<div class="clearfix"></div>
+				<div class="portfolio-static">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="portfolio-item">
+								<div class="overlay"></div>
+								<div class="info">
+									<h4 class="title">Raining</h4>
+									<p class="brief-description">Photography</p>
+									<a href="#" class="btn">read more</a>
+								</div>
+								<div class="media-wrapper">
+									<img src="assets/img/portfolio/800x500/work5.png" alt="Item Thumbnail" />
+								</div>
+							</div>
 						</div>
-						<div class="media-wrapper">
-							<img src="assets/img/portfolio/800x500/work4.png" alt="Item Thumbnail" />
+						<div class="col-md-4">
+							<div class="portfolio-item">
+								<div class="overlay"></div>
+								<div class="info">
+									<h4 class="title">Perfect Edge</h4>
+									<p class="brief-description">Product Design</p>
+									<a href="#" class="btn">read more</a>
+								</div>
+								<div class="media-wrapper">
+									<img src="assets/img/portfolio/800x500/work6.png" alt="Item Thumbnail" />
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="portfolio-item">
+								<div class="overlay"></div>
+								<div class="info">
+									<h4 class="title">Sunny Day</h4>
+									<p class="brief-description">Photography</p>
+									<a href="#" class="btn">read more</a>
+								</div>
+								<div class="media-wrapper">
+									<img src="assets/img/portfolio/800x500/work7.png" alt="Item Thumbnail" />
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- END CAROUSEL -->
-		<!-- TEAM -->
-
-		<!-- END TEAM -->
+		<!-- END RECENT WORKS -->
+		<!-- LATEST NEWS -->
+		<section>
+			<div class="container">
+				<h2 class="section-heading">LATEST NEWS</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="news-item news-featured">
+							<a href="#"><img src="assets/img/news/featured-news.png" class="img-responsive" alt="News Thumbnail"></a>
+							<h3 class="news-title"><a href="#">In Demand: Collaboration Skill</a></h3>
+							<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures. Seamlessly predominate interoperable growth strategies.</p>
+							<div class="news-meta">
+								<span class="news-datetime">23-02-2015</span>
+								<span class="news-comment-count pull-right"><a href="#">65 Comments</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news1.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Growth Strategies We Must Know</a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news2.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Alternative E-commerce</a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news3.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Products Research Methodology &amp; Principles </a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news4.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Understanding Globally Scale Quality Network</a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="news-item margin-bottom-30px clearfix">
+									<a href="#"><img src="assets/img/news/news5.png" class="img-responsive pull-left" alt="News Thumbnail"></a>
+									<div class="right">
+										<h3 class="news-title"><a href="#">Professional Leverage</a></h3>
+										<p>Proactively engage orthogonal growth strategies without resource-leveling testing procedures.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="see-all-news">
+									<a href="#">See all news <i class="fa fa-long-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END LATEST NEWS -->
+		<!-- NUMBERS -->
+		<section class="full-width-section no-margin">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-6">
+						<div class="number-info horizontal text-white-color">
+							<i class="fa fa-plug pull-left"></i>
+							<p>5200 <span>SUBSCRIBERS</span></p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="number-info horizontal text-white-color">
+							<i class="fa fa-cubes pull-left"></i>
+							<p>273 <span>PROJECTS</span></p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="number-info horizontal text-white-color">
+							<i class="fa fa-thumbs-up pull-left"></i>
+							<p>640K <span>APPRECIATIONS</span></p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="number-info horizontal text-white-color">
+							<i class="fa fa-users pull-left"></i>
+							<p>132 <span>CLIENTS</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END NUMBERS -->
 		<!-- TESTIMONIAL -->
-
+		<section id="testimoial-parallax" class="testimonial-with-bg parallax">
+			<div class="container">
+				<div class="testimonial slick-carousel">
+					<div class="testimonial-container">
+						<div class="testimonial-body">
+							<p>Credibly extend parallel relationships after clicks-and-mortar content. Credibly pontificate team building alignments rather than diverse quality vectors.</p>
+							<div class="testimonial-author">
+								<img src="assets/img/user2.png" alt="Author" class="pull-left">
+								<span><span class="author-name">Antonius</span> <em>CEO of TheCompany</em></span>
+							</div>
+						</div>
+						<div class="testimonial-body">
+							<p>Credibly pontificate team building alignments rather than diverse quality vectors. Monotonectally benchmark business communities for distinctive mindshare.</p>
+							<div class="testimonial-author">
+								<img src="assets/img/user1.png" alt="Author" class="pull-left">
+								<span><span class="author-name">Michael</span> <em>General Manager of DreamCorp</em></span>
+							</div>
+						</div>
+						<div class="testimonial-body">
+							<p>Appropriately morph low-risk high-yield process improvements through progressive partnerships. Uniquely brand enabled. Globally network timely imperatives without plug-and-play schemas.</p>
+							<div class="testimonial-author">
+								<img src="assets/img/user5.png" alt="Author" class="pull-left">
+								<span><span class="author-name">Palmer</span> <em>Freelance Web Developer</em></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- END TESTIMONIAL -->
 		<!-- OUR CLIENTS -->
 		<section class="clients">
@@ -240,19 +429,19 @@
 				<h2 class="section-heading">OUR CLIENTS</h2>
 				<ul class="list-inline list-client-logo">
 					<li>
-						<a href="#"><img src="assets/img/clients/logo1.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo1.png" alt="logo"></a>
 					</li>
 					<li>
-						<a href="#"><img src="assets/img/clients/logo2.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo2.png" alt="logo"></a>
 					</li>
 					<li>
-						<a href="#"><img src="assets/img/clients/logo3.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo3.png" alt="logo"></a>
 					</li>
 					<li>
-						<a href="#"><img src="assets/img/clients/logo4.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo4.png" alt="logo"></a>
 					</li>
 					<li>
-						<a href="#"><img src="assets/img/clients/logo5.png" alt="logo" /></a>
+						<a href="#"><img src="assets/img/clients/logo5.png" alt="logo"></a>
 					</li>
 				</ul>
 			</div>
@@ -265,27 +454,27 @@
 					<h2 class="section-heading">GET IN TOUCH</h2>
 				</div>
 				<div class="pull-right">
-					<span>Call us at (1800) 777 - 7777 or</span>&nbsp;&nbsp;<a href="#" class="btn btn-lg btn-primary">CONTACT US</a>
+					<span>Call us at (1800) 765 - 4321 or</span>&nbsp;&nbsp;<a href="#" class="btn btn-lg btn-primary">CONTACT US</a>
 				</div>
 			</div>
 		</section>
 		<!-- END CALL-TO-ACTION -->
 		<!-- FOOTER -->
-		<footer>
+		<footer class="footer-light">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
 						<!-- COLUMN 1 -->
-						<h3 class="sr-only">ABOUT THE COMPANY</h3>
-						<img src="assets/img/logo/observer225x150.png" class="logo" alt="Observer Mobility logo">
-<!-- 						<p>Proactively aggregate B2B initiatives before extensive channels. Monotonectally extend interactive methods of empowerment through excellent applications. Rapidiously synergize visionary products with sticky technology.</p> -->
+						<h3 class="sr-only">ABOUT US</h3>
+						<img src="assets/img/logo/repute-logo-nav.png" class="logo" alt="Repute">
+						<p>Proactively aggregate B2B initiatives before extensive channels. Monotonectally extend interactive methods of empowerment through excellent applications. Rapidiously synergize visionary products with sticky technology.</p>
 						<br>
 						<address class="margin-bottom-30px">
 							<ul class="list-unstyled">
-<!-- 								<li>1234 North Main Street
-									<br/> New York, NY 222222</li> -->
-								<li>Phone: (1800) 777 - 7777</li>
-								<li>Email: contact@observermobility.com</li>
+								<li>1234 North Main Street
+									<br/> New York, NY 222222</li>
+								<li>Phone: (1800) 765 - 4321</li>
+								<li>Email: email@yourdomain.com</li>
 							</ul>
 						</address>
 						<!-- END COLUMN 1 -->
@@ -296,7 +485,7 @@
 						<div class="row margin-bottom-30px">
 							<div class="col-xs-6">
 								<ul class="list-unstyled footer-nav">
-									<li><a href="#">About The Company</a></li>
+									<li><a href="#">About Us</a></li>
 									<li><a href="#">News</a></li>
 									<li><a href="#">Community</a></li>
 									<li><a href="#">Career</a></li>
@@ -319,7 +508,7 @@
 						<!-- COLUMN 3 -->
 						<div class="newsletter">
 							<h3 class="footer-heading">NEWSLETTER</h3>
-							<p>Get the latest Observer Mobility update by subscribing to our newsletter.</p>
+							<p>Get the latest update from us by subscribing to our newsletter.</p>
 							<form class="newsletter-form" method="POST">
 								<div class="input-group input-group-lg">
 									<input type="email" class="form-control" name="email" placeholder="youremail@domain.com">
@@ -330,12 +519,12 @@
 							</form>
 						</div>
 						<div class="social-connect">
-							<h3 class="footer-heading">LET'S CONNECT</h3>
+							<h3 class="footer-heading">GET CONNECTED</h3>
 							<ul class="list-inline social-icons">
-								<li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
 								<li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="wechat-bg"><i class="fa fa-wechat"></i></a></li>
-								<li><a href="#" class="renren-bg"><i class="fa fa-renren"></i></a></li>
+								<li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#" class="googleplus-bg"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
 							</ul>
 						</div>
 						<!-- END COLUMN 3 -->
@@ -344,7 +533,7 @@
 			</div>
 			<!-- COPYRIGHT -->
 			<div class="text-center copyright">
-				&copy;2016 www.observermobility.com All Rights Reservered.
+				&copy;2016 The Develovers. All Rights Reserved.
 			</div>
 			<!-- END COPYRIGHT -->
 		</footer>
@@ -355,8 +544,8 @@
 	<script src="assets/js/jquery-2.1.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/plugins/slick/slick.min.js"></script>
-	<script src="assets/js/plugins/jquery-cycle/jquery.cycle.all.js"></script>
-	<script src="assets/js/plugins/maximage/jquery.maximage.min.js"></script>
+	<script src="assets/js/plugins/stellar/jquery.stellar.min.js"></script>
+	<script src="assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
 	<script src="assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
 	<script src="assets/js/repute-scripts.js"></script>
 	
