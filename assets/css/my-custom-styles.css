@@ -1,2 +1,5 @@
 /* your custom styles here */]
 
+.navbar-default .navbar-nav > li > a {
+color: white;
+}
