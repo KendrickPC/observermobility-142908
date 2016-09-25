@@ -3646,7 +3646,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .navbar-default .navbar-nav > li > a {
   font-weight: 600;
-  color: #656565;
+  color: #4aaf56;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #355987;
@@ -4062,7 +4062,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .hero-unit-animated {
   padding: 100px 0;
   color: #fff;
-  background-image: url('../img/hero-unit-bg.png?1420789489');
+  background-image: url('../img/hero-unit-bg2.jpg');
   background-repeat: no-repeat;
   background-position: center -75px;
 }

@@ -1,5 +1,9 @@
 /* your custom styles here */]
 
 .navbar-default .navbar-nav > li > a {
-color: white;
+color: #4aaf56;
+}
+
+.hero-text {
+	color: #4aaf56;
 }

@@ -21,7 +21,7 @@ a:hover, a:focus {
 }
 
 .navbar-toggle {
-  background-color: #708090;
+  background-color: #4aaf56;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -54,7 +54,7 @@ a:hover, a:focus {
   }
 }
 .hero-unit-animated .hero-button {
-  background-color: #708090;
+  background-color: #4aaf56;
 }
 .hero-unit-animated .hero-button:hover, .hero-unit-animated .hero-button:focus {
   background-color: #697888;
@@ -66,7 +66,7 @@ a:hover, a:focus {
 }
 
 .boxed-content > i {
-  color: #708090;
+  color: #4aaf56;
 }
 .boxed-content.left-boxed-icon i {
   background: #708090;
