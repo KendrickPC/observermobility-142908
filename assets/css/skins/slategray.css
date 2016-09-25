@@ -124,7 +124,7 @@ a:hover, a:focus {
   color: #708090;
 }
 .portfolio-item-filters li a.active {
-  background-color: #708090;
+  background-color: #4aaf56;
   color: #fff;
 }
 
@@ -208,7 +208,7 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
 }
 
 .breadcrumb > li.active {
-  color: #708090;
+  color: #4aaf56;
 }
 .breadcrumb a:hover, .breadcrumb a:focus {
   color: #708090;
@@ -270,7 +270,7 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
 }
 
 .dropcap {
-  background-color: #708090;
+  background-color: #4aaf56;
 }
 
 .testimonial-fancy i {

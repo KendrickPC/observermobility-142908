@@ -3607,7 +3607,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .navbar-brand.navbar-logo-bigger > img {
   position: relative;
   top: 13px;
-  width: 70px;
+  width: 110px;
 }
 
 .navbar-toggle {
@@ -3848,6 +3848,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .label-main-nav {
   position: relative;
   top: -2px;
+  background-color: black;
 }
 
 /* mega menu */
