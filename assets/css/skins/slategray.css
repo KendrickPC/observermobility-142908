@@ -25,7 +25,7 @@ a:hover, a:focus {
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #5e6c79;
+  background-color: #4aaf56;
 }
 
 .navbar-nav .dropdown-menu {
@@ -110,7 +110,7 @@ a:hover, a:focus {
 }
 
 .portfolio-item .overlay {
-  background-color: rgba(112, 128, 144, 0.9);
+  background-color: rgba(74, 175, 86, 0.7);
 }
 .portfolio-item .btn {
   background-color: #798897;
