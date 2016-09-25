@@ -29,7 +29,7 @@ body.layout-boxed {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 5px;
   font-family: "Roboto Condensed", sans-serif;
-  color: #656565;
+  color: #4aaf56;
 }
 
 section {
@@ -276,7 +276,7 @@ hr {
 
 /* footer */
 footer {
-  background-color: #49494b;
+  background-color: #4aaf56;
   font-weight: 300;
   color: #eaeaea;
 }
@@ -320,7 +320,7 @@ footer .social-icons.light-icons a:hover {
 
 .copyright {
   padding: 15px 0;
-  background-color: #323232;
+  background-color: #000000;
   font-size: 12px;
 }
 
