@@ -54,7 +54,7 @@ button:hover {
 }
 
 hr {
-  border-color: #eaeaea;
+  border-color: #4aaf56;
 }
 
 /* wrapper */
@@ -3599,7 +3599,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding: 12px 15px;
 }
 .navbar-brand > img {
-  width: 175px;
+  width: 200px;
 }
 .navbar-brand.navbar-logo-bigger {
   padding: 0 0 0 10px;
@@ -4061,7 +4061,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /* Types: slider with animated object, default slider
 /* ----------------------------------------------------- */
 .hero-unit-animated {
-  padding: 100px 0;
+  padding: 20px 0;
   color: #fff;
   background-image: url('../img/hero-unit-bg2.jpg');
   background-repeat: no-repeat;
