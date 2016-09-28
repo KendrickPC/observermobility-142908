@@ -16,4 +16,10 @@ color: #4aaf56;
 
 .hero-heading {
 	color: red;
+}			
+
+.underconstruction {
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 40px;
 }
