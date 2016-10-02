@@ -19,6 +19,18 @@
   background: #ae163e;
 }
 
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.black {
+  background: black;
+}
+
 .addons {
   margin-top: 10px;
   padding: 5px;
