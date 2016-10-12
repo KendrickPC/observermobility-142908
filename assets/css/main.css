@@ -27,7 +27,7 @@ body.layout-boxed {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 5px;
+  margin-top: 10px;
   font-family: "Roboto Condensed", sans-serif;
   color: #4aaf56;
 }
@@ -113,6 +113,10 @@ hr {
   padding: 5px 0;
   margin: 0;
   border-bottom: 0px solid #eaeaea;
+  background-color: #4aaf56;
+  color: white;
+  text-align: center;
+  width: auto;
 }
 .page-header .container {
   position: relative;
